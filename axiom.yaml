@@ -34,9 +34,8 @@ imports:
   - DimensionCheck
   - DimensionsReport
   - RelationCandidate
-description: 'Formularium physical constants: 71 invokable constant nodes (value,
-  uncertainty, unit, natural-units mass dimension, tier, source) plus GetCatalog.
-  Part of the Formularium axiom-native physics catalog.'
+description: 'Formularium physical constants: 71 invokable constant nodes (value, uncertainty, unit, natural-units
+  mass dimension, tier, source) plus GetCatalog. Part of the Formularium axiom-native physics catalog.'
 license: Apache-2.0
 nodes:
 - name: GetAWolf
