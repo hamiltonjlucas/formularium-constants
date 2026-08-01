@@ -5,6 +5,11 @@
 `formularium-types.ConstantSpec` (value, uncertainty, unit, natural-units mass
 dimension, tier, source), plus `GetCatalog` returning every constant at once.
 
+This package also carries the **shared protobuf contracts** for the whole Formularium
+fleet (`FormulaSpec`, `Catalog`, `FormulaResult`, the engine report messages): every
+domain package and the engine `axiom import` them from here. (A separate proto-only
+types package was retired to fit the platform's 10-package beta cap.)
+
 | Node | Symbol | Name | Value | Source |
 |---|---|---|---|---|
 | `GetAWolf` | A_wolf | Wolfenstein A parameter | 0.826 dimensionless | derived |
