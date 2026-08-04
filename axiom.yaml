@@ -1,5 +1,5 @@
 name: hamiltonjlucas/formularium-constants
-version: 0.2.0
+version: 0.3.0
 language: python
 description: 'Formularium physical constants: 71 invokable constant nodes (value, uncertainty, unit, natural-units
   mass dimension, tier, source) plus GetCatalog. Part of the Formularium axiom-native physics catalog.'
@@ -221,3 +221,37 @@ nodes:
 - name: GetCatalog
   input: Empty
   output: Catalog
+imports:
+- package: hamiltonjlucas/formularium-types
+  version: 0.3.0
+  messages:
+  - SynthesisStats
+  - Catalog
+  - GraphEdge
+  - FormulaSpec
+  - ValidationIssue
+  - BuckinghamReport
+  - RelationCandidate
+  - ConstantSpec
+  - FormulaResult
+  - GraphNode
+  - DomainCatalog
+  - DimensionCheck
+  - GraphReport
+  - BuckinghamGroup
+  - BuckinghamSet
+  - StructureReport
+  - SweepReport
+  - Empty
+  - ValidationReport
+  - SynthesizeShardRequest
+  - CentralityEntry
+  - QuantitySpec
+  - UnitConversionCheck
+  - DerivationResult
+  - DeriveReport
+  - DiscoverReport
+  - SynthesizedRelation
+  - SynthesizeEvent
+  - DimensionsReport
+  - UnitsReport

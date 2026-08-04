@@ -1,4 +1,4 @@
-from gen.messages_pb2 import Empty
+from gen.hamiltonjlucas_formularium_types_messages_pb2 import Empty
 from nodes.get_n_ds import get_n_ds
 
 

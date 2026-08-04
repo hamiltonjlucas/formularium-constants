@@ -1,4 +1,4 @@
-from gen.messages_pb2 import Empty
+from gen.hamiltonjlucas_formularium_types_messages_pb2 import Empty
 from nodes.get_beta0_qcd import get_beta0_qcd
 
 

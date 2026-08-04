@@ -1,6 +1,5 @@
 from gen.axiom_context import AxiomContext
-from gen.messages_pb2 import ConstantSpec
-from gen.messages_pb2 import Empty
+from gen.hamiltonjlucas_formularium_types_messages_pb2 import ConstantSpec, Empty
 from nodes.specs import CONSTANTS
 
 SPEC = CONSTANTS['Omega_Lambda']
